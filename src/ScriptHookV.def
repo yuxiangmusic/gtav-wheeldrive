@@ -1,0 +1,8 @@
+LIBRARY ScriptHookV.dll
+EXPORTS
+?scriptRegister@@YAXPEAUHINSTANCE__@@P6AXXZ@Z
+?scriptUnregister@@YAXPEAUHINSTANCE__@@@Z
+?scriptWait@@YAXK@Z
+?nativeInit@@YAX_K@Z
+?nativePush64@@YAX_K@Z
+?nativeCall@@YAPEA_KXZ
