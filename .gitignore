@@ -1,3 +1,5 @@
 build/
 *.csv
 *.log
+CLAUDE.local.md
+__pycache__/

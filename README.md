@@ -108,6 +108,9 @@ actually applies, gear, and more.
 The calibration was measured mainly on the Bravado Buffalo and the Taxi. Other cars keep their own power,
 grip and steering lock, so they still feel different, as they should.
 
+The full method, models and telemetry format are in [CALIBRATION.md](CALIBRATION.md). To check or refine
+the calibration from your own driving, run `python3 tools/analyze.py telemetry.csv --ini WheelDrive.ini`.
+
 ## Building
 
 WheelDrive is plain C++20 against the Win32/DirectInput API, cross-compiled with
